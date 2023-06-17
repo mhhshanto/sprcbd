@@ -111,8 +111,8 @@ export default function Footer() {
                       <a href="#">শনিবার</a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -125,8 +125,8 @@ export default function Footer() {
                       <a href="#">রবিবার</a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ export default function Footer() {
                       <a href="#"> সোমবার </a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -153,8 +153,8 @@ export default function Footer() {
                       <a href="#">মঙ্গলবার </a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -167,8 +167,8 @@ export default function Footer() {
                       <a href="#">বুধবার </a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -181,8 +181,8 @@ export default function Footer() {
                       <a href="#">বৃহস্পতিবার</a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
-                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
@@ -195,8 +195,8 @@ export default function Footer() {
                       <a href="#">শুক্রবার</a>
                     </h6>
                     <p>
-                      <i className="fa fa-clock-o"></i>সাপ্তাহিক বন্ধের দিন
-                      
+                      <i className="fa fa-clock-o"></i>সকাল ৯ টা - রাত  ১০ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="/appointment">এপয়েন্টমেন্ট নিন </a>
                     </p>
                   </div>
                 </div>
