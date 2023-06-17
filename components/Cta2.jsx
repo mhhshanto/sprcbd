@@ -7,8 +7,9 @@ export default function Cta2() {
         <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
           <div className="content" data-aos="fade-right" data-aos-delay="200">
             <h2>আপনি কি এখনই এপয়েন্টমেন্ট নিতে চাচ্ছেন ?</h2>
-            <p>আমাদের রয়েছে পুরুষদের জন্য পুরুষ ফিজিওথেরাপিস্ট এবং মহিলাদের জন্য মহিলা ফিজিওথেরাপিস্ট
-            </p>
+            <h6>আমাদের রয়েছে পুরুষদের জন্য পুরুষ ফিজিওথেরাপিস্ট এবং স্বয়ং সম্পন্ন পুরুষ বিভাগ । 
+            </h6>
+            <h6> মহিলাদের জন্য রয়েছে মহিলা ফিজিওথেরাপিস্ট ও স্বয়ং সম্পন্ন আলাদা  মহিলা বিভাগ ।</h6>
           </div>
           <div
             className="subscribe-btn"

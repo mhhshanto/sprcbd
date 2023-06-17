@@ -31,7 +31,7 @@ Dip. in-Manipulation Therapy (Certified <a target="_blank" href="https://belgium
 PGT- <a target="_blank" href="https://mckenzieinstitute.org/
 ">McKenzie Concept</a> for disc problems solving (New Zealand) <br />
 Bobath Concept for stroke rehabilitation ( <a target="_blank" href="http://bbta.org.uk">BBTA</a> ,UK) <br />
-Mulligan Concept for Manual therapy  (<a target="_blank" href="https://bmulligan.com/">Capri Institute</a>, Delhi) <br />
+Mulligan Concept <a target="_blank" href="https://bmulligan.com/">(Mulligan institute,UK)</a><br /> Manual therapy  (<a target="_blank" href="https://bmulligan.com/">Capri Institute</a>, Delhi) <br />
 Neuro Mobilisation ( <a target="_blank" href="https://www.linkedin.com/company/neuro-orthopaedic-institute/?originalSubdomain=au">NOI Group</a>, Australia )</h6>
             <h4 className="text-center lh-base">
                  তিনি দীর্ঘদিন যাবৎ চট্টগ্রাম শহরের প্রাণকেন্দ্র গোলপাহাড় মোড়ে 

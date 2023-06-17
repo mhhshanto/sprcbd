@@ -16,11 +16,11 @@ export default function Pricing() {
               data-aos-delay="0"
               data-aos-duration="600"
             >
-              <span>Weekly</span>
-              <h2>Starter</h2>
-              <p className="desc">Here goes some description</p>
-              <p className="price">৳ ৯৯৯৯.০০ </p>
-              <p>Create excepteur sint occaecat cupidatat non proident</p>
+              <span>daily</span>
+              <h2>Basic</h2>
+              <p className="desc">For specific diseases</p>
+              <p className="price">400 TK  </p>
+              <p>All kinds of Electro therapy <br /> Manual and Manipulation <br /> Theraputic Exercies </p>
               <a href="#" className="btn_custom btn_custom-primary">
               সেবা নিন 
               </a>
@@ -40,14 +40,14 @@ export default function Pricing() {
               data-aos-delay="300"
               data-aos-duration="600"
             >
-              <span>15 days</span>
-              <h2>Starter</h2>
-              <p className="desc">Here goes some description</p>
-              <p className="price">৳ ৯৯৯৯.০০ </p>
-              <p>5GB Storage Space</p>
-              <p>20GB Monthly Bandwidth</p>
-              <p>My SQL Databases</p>
-              <p>100 Email Account</p>
+              <span>Per Session</span>
+              <h2>Premium</h2>
+              <p className="desc"> <br /></p>
+              <p className="price">Price is conditional</p>
+              <p>CPM </p>
+              <p>Laser Therapy</p>
+              <p>Shockwave</p>
+              <p>Advanced Manual Therapy</p>
               <a href="#" className="btn_custom btn_custom-primary">
                 সেবা নিন 
               </a>
@@ -67,11 +67,11 @@ export default function Pricing() {
               data-aos-delay="600"
               data-aos-duration="600"
             >
-              <span>Monthly</span>
-              <h2>Starter</h2>
-              <p className="desc">Here goes some description</p>
-              <p className="price">৳ ৯৯৯৯.০০ </p>
-              <p>Create excepteur sint occaecat cupidatat non proident</p>
+              <span>Yearly</span>
+              <h2>Consultancy</h2>
+              <p className="desc">Free Follow up during treatment</p>
+              <p className="price">500 Tk</p>
+              <p>Discuss the indigent patient finencial problem</p>
               <a href="#" className="btn_custom btn_custom-primary">
               সেবা নিন 
               </a>
