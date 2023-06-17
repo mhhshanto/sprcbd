@@ -23,8 +23,9 @@ const Portfolio = () => {
           data-aos-delay="0"
           data-aos-duration="800">
             <h1 className="text-center mt-3 color-red">
-              শফিকুল ইসলাম <br /> ফিজিওথেরাপি বিশেষজ্ঞ 
+              শফিকুল ইসলাম <br /> 
             </h1>
+            <h4 className="text-primary text-center" >(ফিজিওথেরাপি বিশেষজ্ঞ)</h4> 
             <h6 className=" mb-4 ">BPT, MSPT ( DU, CRP ) <br />
 Dip. in-Manipulation Therapy (Certified <a target="_blank" href="https://belgium.worldplaces.me/review/84930016-european-teaching-group-of-orthopaedic-medicine-cyriax.html">ETOMG-Belgium</a>) <br />
 PGT- <a target="_blank" href="https://mckenzieinstitute.org/

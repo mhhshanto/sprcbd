@@ -16,11 +16,11 @@ const page = () => {
           <h4 className="text-info ">Ultra Sound Machine Therapy Machine</h4>
           <p>  details of the machine</p>
         </div>
-        <div className="col-md-6 "><img className="rounded shadow p-1" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
+        <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
       </div>
 
       <div className="row mb-4">
-        <div className="col-md-6 "><img className="rounded shadow p-1" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
+        <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
         <div className="col-md-6 text-start p-5">
 
           <h4 className="text-info">Ultra Sound Machine Therapy Machine</h4>
@@ -34,11 +34,11 @@ const page = () => {
       <h4 className="text-info">Ultra Sound Machine Therapy Machine</h4>
   <p>details of the machine</p>
     </div>
-    <div className="col-md-6 "><img className="rounded shadow p-1" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
+    <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
   </div>
 
   <div className="row mb-4">
-        <div className="col-md-6 "><img className="rounded shadow p-1" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
+        <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/ultra-sound.jpg" alt="" /></div>
         <div className="col-md-6 text-start p-5">
 
           <h4 className="text-info">Ultra Sound Machine Therapy Machine</h4>
