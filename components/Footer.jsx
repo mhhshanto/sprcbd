@@ -1,0 +1,300 @@
+import React from "react";
+
+export default function Footer() {
+  return (
+    <footer>
+      <div className="footer-widgets">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-xl-3">
+              <div
+                className="single-widget contact-widget"
+                data-aos="fade-up"
+                data-aos-delay="0"
+              >
+                <h6 className="widget-tiltle">&nbsp;</h6>
+                <p>
+                  By subscribing to our mailing list you will always be update
+                  with the latest news from us.
+                </p>
+                <div className="media">
+                  <i className="fa fa-map-marker"></i>
+                  <div className="media-body ms-3">
+                    <h6>Address</h6>
+                   1707,A Golpahar Moor,
+                   O.R.Nizam Road,Chittagong
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-envelope-o"></i>
+                  <div className="media-body ms-3">
+                    <h6>Have any questions?</h6>
+                    <a href="mailto:shafiqulphysiobd@gmail.com">
+                    shafiqulphysiobd@gmail.com
+                    </a>
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-phone"></i>
+                  <div className="media-body ms-3">
+                    <h6>Call us & Hire us</h6>
+                    <a href="tel:+610791803458"> +88 01819318726</a>
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-fax"></i>
+                  <div className="media-body ms-3">
+                    <h6>Whats App</h6>
+                    <a href="fax:911889047521432">+88 01819318726</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-3 color_title">
+              <div
+                className="single-widget twitter-widget"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h6 className="widget-tiltle">Recent Blog Posts</h6>
+                <div className="media">
+                  <i className="fa fa-twitter"></i>
+                  <div className="media-body ms-3">
+                    <h6>
+                    ফিজিওথেরাপির উপকার জানুন: আপনার পুনরুদ্ধার পথে সহায়তা করুন।
+                    </h6>
+                    <span>15 May, 2023</span>
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-twitter"></i>
+                  <div className="media-body ms-3">
+                    <h6>
+                    ম্যানুয়াল থেরাপি বোঝার গুরুত্ব: হাতের কাজের পদ্ধতি দিয়ে স্বাস্থ্যকর হোন।
+                    </h6>
+                    <span>15 May, 2023</span>
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-twitter"></i>
+                  <div className="media-body ms-3">
+                    <h6>
+                    ক্রীড়াবিদ্যার আঘাত প্রতিরোধ: ফিজিওথেরাপি আপনাকে খেলাযোগ্য রেখে রাখতে পারে।
+                    </h6>
+                    <span>15 May, 2023</span>
+                  </div>
+                </div>
+                <div className="media">
+                  <i className="fa fa-twitter"></i>
+                  <div className="media-body ms-3">
+                    <h6>
+                    ক্রোনিক ব্যথা পরিচালনা: দীর্ঘমেয়াদী ব্যথার জন্য ফিজিওথেরাপির শক্তি জানুন।
+                    </h6>
+                    <span>15 May, 2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-3">
+              <div
+                className="single-widget recent-post-widget"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <h6 className="widget-tiltle">রোগী দেখার সময়সূচী </h6>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/1.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">শনিবার</a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/2.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">রবিবার</a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/3.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#"> সোমবার </a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/4.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">মঙ্গলবার </a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/5.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">বুধবার </a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/6.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">বৃহস্পতিবার</a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সকাল ১০টা - বিকাল ৫ টা
+                      <i className="fa fa-calendar-plus-o"></i> <a href="#">এপয়েন্টমেন্ট নিন </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <a className="rcnt-img" href="#">
+                    <img src="sprc-images/days/7.png" alt="Recent Post" />
+                  </a>
+                  <div className="media-body ms-3">
+                    <h6>
+                      <a href="#">শুক্রবার</a>
+                    </h6>
+                    <p>
+                      <i className="fa fa-clock-o"></i>সাপ্তাহিক বন্ধের দিন
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-3">
+              <div
+                className="single-widget tags-widget"
+                data-aos="fade-up"
+                data-aos-delay="800"
+              >
+                <h6 className="widget-tiltle">Popular Tags</h6>
+                <a href="#">Physiotherapy</a>
+                <a href="#">Health</a>
+                <a href="#">Manual Therapy</a>
+                <a href="#">Nech Pain</a>
+                <a href="#">Shoulder Pain</a>
+                <a href="#">Knee Pain</a>
+              </div>
+              <div
+                className="single-widget subscribe-widget"
+                data-aos="fade-up"
+                data-aos-delay="800"
+              >
+                <h6 className="widget-tiltle">Subscribe us</h6>
+                <p>
+                  Sign up for our mailing list to get latest updates and offers
+                </p>
+                <form className="" method="get">
+                  <div className="input-group">
+                    <input
+                      className="field form-control"
+                      name="subscribe"
+                      type="email"
+                      placeholder="Email Address"
+                    />
+                    <span className="input-group-btn">
+                      <button type="submit" name="submit-mail">
+                        <i className="fa fa-check"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+                <p>We respect your privacy</p>
+                <ul className="nav social-nav">
+                  <li>
+                    <a href="https://www.facebook.com/fh5co" target="_blank">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="foot-note">
+        <div className="container">
+          <div className="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
+            <p className="mb-0" data-aos="fade-right" data-aos-offset="0">
+              &copy; 2023 All Rights Reserved by&nbsp;
+              <a
+                href="https://freehtml5.co/multipurpose"
+                target="_blank"
+                className="fh5-link"
+              >
+                SprcBd.Com
+              </a>
+              .
+            </p>
+            <p className="mb-0" data-aos="fade-left" data-aos-offset="0">
+              <a href="#">Terms Of Use</a>
+              <a href="#">Privacy & Security Statement</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
