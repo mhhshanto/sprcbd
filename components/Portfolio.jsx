@@ -33,10 +33,10 @@ PGT- <a target="_blank" href="https://mckenzieinstitute.org/
 Bobath Concept for stroke rehabilitation ( <a target="_blank" href="http://bbta.org.uk">BBTA</a> ,UK) <br />
 Mulligan Concept <a target="_blank" href="https://bmulligan.com/">(Mulligan institute,UK)</a><br /> Manual therapy  (<a target="_blank" href="https://bmulligan.com/">Capri Institute</a>, Delhi) <br />
 Neuro Mobilisation ( <a target="_blank" href="https://www.linkedin.com/company/neuro-orthopaedic-institute/?originalSubdomain=au">NOI Group</a>, Australia )</p>
-            <h4 className="text-center lh-base">
+            <h5 className=" lh-base">
                  তিনি দীর্ঘদিন যাবৎ চট্টগ্রাম শহরের প্রাণকেন্দ্র গোলপাহাড় মোড়ে 
               <span className="text-success"> (SPRC)শফিকুল ফিজিওথেরাপি এন্ড রিহ্যাবিলিটেশন সেন্টারে </span> চিফ ফিজিওথেরাপি কনসালটেন্ট হিসেবে আছেন।তিনি কর্মজীবনে ঢাকা মেডিকেল কলেজ হাসপাতালে যোগদান করে বর্তমানে চট্টগ্রাম মেডিকেল হাসপাতালে চিফ ফিজিওথেরাপিস্ট হিসেবে কর্মরত আছেন ।  তার এই দীর্ঘ প্রায় ২৫ বছরের  কর্মজীবনে <span className="text-success"> তিনি দুই লক্ষের অধিক</span> রোগীকে ফিজিওথেরাপি চিকিৎসা সেবা দিয়ে সন্তুষ্টি অর্জন করেছেন । তিনি আন্তর্জাতিক মানের <span className="text-success">ম্যানুয়াল ফিজিওথেরাপি</span>র উপর বিশেষভাবে  প্রশিক্ষণপ্রাপ্ত।তিনি তার  <span className="text-success">ম্যানুয়াল থেরাপির</span>  মাধ্যমে অনেক ক্রিটিক্যাল রোগীকে সুস্থতার পথ দেখিয়েছেন।
-            </h4>
+            </h5>
             <div className="text-center mt-4">
               <button className="btn_custom btn_custom-primary">
                 আরো জানুন
