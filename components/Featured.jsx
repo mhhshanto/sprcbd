@@ -24,14 +24,14 @@ export default function Featured() {
                 <i className="fa fa-magic me-4"></i>
                 <div className="media-body">
                   <h5>সাধারণ ফিজিওথেরাপি</h5>
-                  শারীরিক সমস্যার সমাধান করে।
+                  
                 </div>
               </div>
               <div className="media">
                 <i className="fa fa-magic me-4"></i>
                 <div className="media-body">
-                  <h5>ম্যানুয়াল ফিজিওথেরাপি</h5>
-                  শারীরিক সমস্যার সমাধান করে।
+                  <h5>ম্যানুয়াল ও ম্যানিপুলেশন থেরাপি</h5>
+                  
                 </div>
               </div>
             </div>

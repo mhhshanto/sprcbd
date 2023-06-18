@@ -28,10 +28,10 @@ export default function Trust() {
             </p>
             <h5>যে সকল  জটিল রোগের সমাধান হয় ফিজিওথেরাপিতে </h5>
             <ul className="list-unstyled">
-              <li>স্ট্রোক,পেরালাইসিস</li>
-              <li>ফ্রজেন শোল্ডার</li>
-              <li>বার্ধক্যজনিত ব্যথা</li>
-              <li>শোল্ডার পেইন</li>
+              <li>নিউরোলজিক্যাল ফিজিওথেরাপি </li>
+              <li>পেডিয়েটিক ফিজিওথেরাপি</li>
+              <li>মাস্কুলোস্কেলিটাল ফিজিওথেরাপি</li>
+              <li>স্পোর্টস ফিজিওথেরাপি</li>
             </ul>
             <a href="#" className="btn_custom btn_custom-primary mb-4 ">
             আরো জানুন 
