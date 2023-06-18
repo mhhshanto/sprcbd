@@ -9,17 +9,18 @@ const FourCard = () => {
   </div>
   
 <div className="container-four">
-    <div className="box box-red box-push">
-     <div 
-       data-aos="fade-right"
-       data-aos-delay="0"
-       data-aos-duration="800">
-      <h2>বিশেষজ্ঞ ফিজিওথেরাপিস্ট টিম</h2>
-      <p>সুদক্ষ থেরাপিস্ট দ্বারা আমাদের ফিজিওথেরাপি সেন্টার পরিচালিত হয়।</p>
-      <img src="sprc-images/four-card/icon-team-builder.svg" alt=""/>
-      <a href="/stuff"  className="mt-5 btn btn-danger">Know More</a>
+<div className="box box-orange box-push">
+      <div 
+      data-aos="fade-right"
+      data-aos-delay="0"
+      data-aos-duration="800">
+      <h2>ম্যানুয়াল এন্ড ম্যানিপুলেশন থেরাপি   </h2>
+      <p>সপ্তাহে ৭ দিনই আমাদের ফিজিওথেরাপি সেন্টার থেকে সেবা নেওয়ার সুযোগ রয়েছে। </p>
+      <a href="/therapy" className="mt-5 btn btn-warning">Know More</a>
+      <img src="sprc-images/four-card/icon-karma.svg" alt=""/>
       </div>
     </div>
+   
     <div className="box box-cyan" 
        data-aos="fade-down"
        data-aos-delay="0"
@@ -30,17 +31,18 @@ const FourCard = () => {
       <a href="/machineries" className="mt-5 btn btn-info">Know More</a>
       <img src="sprc-images/four-card/icon-supervisor.svg" alt=""/>
     </div>
-    <div className="box box-orange box-push">
-      <div 
-      data-aos="fade-left"
-      data-aos-delay="0"
-      data-aos-duration="800">
-      <h2>ম্যানুয়াল এন্ড ম্যানিপুলেশন থেরাপি   </h2>
-      <p>সপ্তাহে ৭ দিনই আমাদের ফিজিওথেরাপি সেন্টার থেকে সেবা নেওয়ার সুযোগ রয়েছে। </p>
-      <a href="/therapy" className="mt-5 btn btn-warning">Know More</a>
-      <img src="sprc-images/four-card/icon-karma.svg" alt=""/>
+    <div className="box box-red box-push">
+     <div 
+       data-aos="fade-left"
+       data-aos-delay="0"
+       data-aos-duration="800">
+      <h2>বিশেষজ্ঞ ফিজিওথেরাপিস্ট টিম</h2>
+      <p>সুদক্ষ থেরাপিস্ট দ্বারা আমাদের ফিজিওথেরাপি সেন্টার পরিচালিত হয়।</p>
+      <img src="sprc-images/four-card/icon-team-builder.svg" alt=""/>
+      <a href="/stuff"  className="mt-5 btn btn-danger">Know More</a>
       </div>
     </div>
+    
     <div className="box box-blue" 
     data-aos="fade-up"
     data-aos-delay="0"
