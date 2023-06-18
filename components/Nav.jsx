@@ -22,8 +22,8 @@ export default function Nav() {
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-google-plus"></i>
+                <a target="_blank" href="https://youtu.be/1gA82h7PpX0">
+                  <i className="fa fa-youtube"></i>
                 </a>
               </li>
               <li>
