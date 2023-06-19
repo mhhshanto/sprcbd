@@ -22,7 +22,7 @@ const Portfolio = () => {
           data-aos="fade-right"
           data-aos-delay="0"
           data-aos-duration="800">
-            <h1 className="text-center mt-3 color-red">
+            <h1 className="text-center color-red">
               শফিকুল ইসলাম <br /> 
             </h1>
             <h4 className="text-primary text-center" >(ফিজিওথেরাপি বিশেষজ্ঞ)</h4> 

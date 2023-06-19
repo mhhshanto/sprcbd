@@ -4,13 +4,13 @@ const Contact = () => {
   return <div>
 <div className="four-card">
 <div className="four-card-text container">
-    <h1>ফিজিওথেরাপি সেবার জন্য  <span>যোগাযোগ</span> করুন</h1>
+    <h1 className="txt-color">ফিজিওথেরাপি সেবার জন্য  <span>যোগাযোগ</span> করুন</h1>
     <h6>আমাদের রয়েছে অত্যাধুনিক চিকিৎসা ব্যবস্থা ও সুদক্ষ ফিজিওথেরাপিস্ট</h6>
     <h4 className="text-center mb-3 text-primary"><span className="text-danger">বিশেষ দ্রষ্টব্য:</span> ডিজেবল পেশেন্টের অক্ষমতা বিবেচনায় রেখে আমাদের রয়েছে হোম সার্ভিস ফিজিওথেরাপিস্ট টিম ।</h4>
   </div>
 </div>
 
-<div className="bg-secondary">
+<div className="">
 <div className="container text-center">
   <div className="row pt-3">
     <div className="col-md-6">

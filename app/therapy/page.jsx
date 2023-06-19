@@ -5,7 +5,7 @@ const page = () => {
   return <div>
     <div className="four-card">
       <div className="four-card-text container">
-        <h1 >আমাদের অত্যাধুনিক <span>থেরাপিসমূহ</span> সম্পর্কে জানুন </h1>
+        <h1 className="txt-color">আমাদের অত্যাধুনিক <span>থেরাপিসমূহ</span> সম্পর্কে জানুন </h1>
         <p> আধুনিক থেরাপিসমূহ রোগীর সুন্থতায় কম সময়েই কার্যকরী ভূমিকা রাখে । </p>
       </div>
     </div>
