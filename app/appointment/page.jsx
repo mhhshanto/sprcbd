@@ -7,7 +7,7 @@ const page = () => {
 
 <section className="four-card">
 <div className="four-card-text container">
-    <h1><span>শফিকুল ইসলাম ফিজিওথেরাপি সেন্টারে </span> <br />আপনার এপয়েন্টমেন্ট নিশ্চিত করতে নিচের ফর্মটি সঠিক ভাবে পূরণ করুন  </h1>
+    <h1 className="txt-color"><span>শফিকুল ইসলাম ফিজিওথেরাপি সেন্টারে </span> <br />আপনার এপয়েন্টমেন্ট নিশ্চিত করতে নিচের ফর্মটি সঠিক ভাবে পূরণ করুন  </h1>
     <p> অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।</p>
   </div>
 
@@ -71,7 +71,7 @@ const page = () => {
 
                     <div className="col-md-12 text-center mt-3">
                         
-                        <input type="submit" className="btn_custom btn_custom-primary" value="এপয়েন্টমেন্ট  কনফার্ম  করুন " />
+                        <input type="submit" className="btn_custom btn_custom-primary" value="কনফার্ম  করুন " />
                     
                 </div>
           
