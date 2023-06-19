@@ -85,7 +85,7 @@ const page = () => {
   <div className="row mb-4">
         <div className="col-md-6 " data-aos="fade-right"
           data-aos-delay="0"
-          data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/untitl2.jpg" alt="" /></div>
+          data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/Untitl2.jpg" alt="" /></div>
         <div className="col-md-6 text-start p-5">
 
           <h4 className="text-primary">Laser Therapy</h4>
