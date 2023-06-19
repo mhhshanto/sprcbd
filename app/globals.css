@@ -1453,7 +1453,7 @@ span {
     background: url("/sprc-images/home/mobile-hero.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 480px;
+    min-height: 440px;
   }
   .navbar-brand h2{
     margin-top: 8px;
