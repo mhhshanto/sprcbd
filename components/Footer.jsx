@@ -38,14 +38,14 @@ export default function Footer() {
                   <i className="fa fa-phone"></i>
                   <div className="media-body ms-3">
                     <h6>Call us & Hire us</h6>
-                    <a href="tel:+610791803458"> +88 01819318726</a>
+                    <a href="tel:+88 01819318726"> +88 01819318726</a>
                   </div>
                 </div>
                 <div className="media">
                   <i className="fa fa-fax"></i>
                   <div className="media-body ms-3">
                     <h6>Whats App</h6>
-                    <a href="fax:911889047521432">+88 01819318726</a>
+                    <a href="call:+88 01819318726">+88 01819318726</a>
                   </div>
                 </div>
               </div>

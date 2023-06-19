@@ -5,7 +5,7 @@ export default function Nav() {
       <div className="container">
         <div className="top-header d-none d-sm-flex justify-content-between align-items-center">
           <div className="contact">
-            <a href="tel:+1234567890" className="tel">
+            <a href="tel:+8801819318726" className="tel">
               <i className="fa fa-phone" aria-hidden="true"></i>+8801819318726
             </a>
             <a href="mailto:info@yourmail.com">
