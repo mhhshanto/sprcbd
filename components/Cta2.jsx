@@ -9,7 +9,7 @@ export default function Cta2() {
             <h2>আপনি কি এখনই এপয়েন্টমেন্ট নিতে চাচ্ছেন ?</h2>
             <h6>আমাদের রয়েছে পুরুষদের জন্য পুরুষ ফিজিওথেরাপিস্ট এবং স্বয়ং সম্পন্ন পুরুষ বিভাগ । 
             </h6>
-            <h6> মহিলাদের জন্য রয়েছে মহিলা ফিজিওথেরাপিস্ট ও স্বয়ং সম্পন্ন আলাদা  মহিলা বিভাগ ।</h6>
+            <h6> মহিলাদের জন্য রয়েছে <span className="text-info">মহিলা ফিজিওথেরাপিস্ট</span> ও স্বয়ং সম্পন্ন   <span className="text-info"> আলাদা মহিলা বিভাগ </span>।</h6>
           </div>
           <div
             className="subscribe-btn"
@@ -18,7 +18,7 @@ export default function Cta2() {
             data-aos-offset="0"
           >
             <a href="/appointment" className="btn_custom btn_custom-primary">
-            এপয়েন্টমেন্ট নিতে ক্লিক করুন
+            এপয়েন্টমেন্ট নিন
             </a>
           </div>
         </div>
