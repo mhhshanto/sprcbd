@@ -17,17 +17,17 @@ export default function Nav() {
            
             <ul className="nav social d-none d-md-flex">
               <li>
-                <a href="https://www.facebook.com/fh5co" target="_blank">
+                <a className="bg-primary" href="https://www.facebook.com/fh5co" target="_blank">
                   <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://youtu.be/1gA82h7PpX0">
-                  <i className="fa fa-youtube"></i>
+                <a className="bg-danger" target="_blank" href="https://youtu.be/1gA82h7PpX0">
+                  <i className="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a className="bg-info" href="#">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
@@ -59,9 +59,7 @@ export default function Nav() {
                 <i className="fa fa-shopping-cart"></i>
               </a> */}
             </div>
-            <a className="search-icon d-none d-md-block" href="#">
-              <i className="fa fa-search"></i>
-            </a>
+          
             <div
               className="collapse navbar-collapse justify-content-end"
               id="navbarTogglerDemo02"
@@ -103,30 +101,7 @@ export default function Nav() {
                   </a>
                 </li>
               </ul>
-              <form
-                className="bg-white search-form"
-                method="get"
-                id="searchform"
-              >
-                <div className="input-group">
-                  <input
-                    className="field form-control"
-                    id="s"
-                    name="s"
-                    type="text"
-                    placeholder="Search"
-                  />
-                  <span className="input-group-btn">
-                    <input
-                      className="submit btn btn-primary"
-                      id="searchsubmit"
-                      name="submit"
-                      type="submit"
-                      value="Search"
-                    />
-                  </span>
-                </div>
-              </form>
+            
             </div>
           </div>
         </nav>

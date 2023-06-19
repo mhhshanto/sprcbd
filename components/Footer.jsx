@@ -243,27 +243,27 @@ export default function Footer() {
                 <p>We respect your privacy</p>
                 <ul className="nav social-nav">
                   <li>
-                    <a href="https://youtu.be/1gA82h7PpX0" target="_blank">
-                      <i className="fa fa-youtube"></i>
+                    <a className="bg-danger" href="https://youtu.be/1gA82h7PpX0" target="_blank">
+                      <i className="fa fa-youtube-play"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a className="bg-primary" href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a className="bg-info" href="#">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a className="bg-danger" href="#">
                       <i className="fa fa-google-plus"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a className="bg-primary" href="#">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
