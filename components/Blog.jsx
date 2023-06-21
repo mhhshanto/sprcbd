@@ -6,9 +6,10 @@ import { Client, Databases, ID } from 'appwrite';
 import Link from 'next/link';
 
 const client = new Client();
+
 client
-  .setEndpoint('https://cloud.appwrite.io/v1')
-  .setProject('6493462466d8b5129797');
+    .setEndpoint('https://cloud.appwrite.io/v1')
+    .setProject('64935a13920799c1729f');
 
 export default function Blog() {
 
@@ -17,7 +18,7 @@ export default function Blog() {
   useEffect(() => {
     const databases = new Databases(client);
 
-    const promise = databases.listDocuments('64934a4457214eb0c1d2', '64934a5a4e41f450c92b');
+    const promise = databases.listDocuments('64935a81b30d4699fbf3', '64935a92791b6004745c');
 
     promise
       .then(function (response) {

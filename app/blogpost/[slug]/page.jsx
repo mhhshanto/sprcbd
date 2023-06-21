@@ -5,9 +5,10 @@ import { Client, Databases, ID, Query } from 'appwrite';
 import Cta2 from "@/components/Cta2";
 
 const client = new Client();
+
 client
-.setEndpoint('https://cloud.appwrite.io/v1')
-.setProject('6493462466d8b5129797');
+    .setEndpoint('https://cloud.appwrite.io/v1')
+    .setProject('64935a13920799c1729f');
 
 
 const page = ({params}) => {
@@ -17,7 +18,7 @@ const page = ({params}) => {
   useEffect(() => {
     const databases = new Databases(client);
 
-    const promise = databases.listDocuments('64934a4457214eb0c1d2', '64934a5a4e41f450c92b',[Query.equal("slug",[slug,])]);
+    const promise = databases.listDocuments('64935a81b30d4699fbf3', '64935a92791b6004745c',[Query.equal("slug",[slug,])]);
 
     promise.then(function (response) {
         console.log(response);
@@ -32,8 +33,8 @@ const page = ({params}) => {
   <div class="container">
     <div class="row">
       <div class="col-md-12 mt-4">
-        <h1 className="text-center mb-4 text-primary">{blog?.title}</h1>
-        <p className="custom-text">{blog?.content}</p>
+        <h1 className="text-center mb-4 text-primary">{blog.title}</h1>
+        <p className="custom-text">{blog.content}</p>
       </div>
     </div>
   </div>
