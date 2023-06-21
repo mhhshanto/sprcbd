@@ -27,7 +27,7 @@ export default function Nav() {
                 </a>
               </li>
               <li>
-                <a className="bg-info" href="">
+                <a className="bg-info" href="https://twitter.com/shafiqu64815043?s=11">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
