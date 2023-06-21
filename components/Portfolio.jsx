@@ -3,7 +3,7 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div>
-    <section className="portfolio mt-4">
+    <section className="portfolio mt-4" style={{ overflowX: 'hidden' }}>
   <div className="container">
     <div className="row">
       <div className="col-md-12">

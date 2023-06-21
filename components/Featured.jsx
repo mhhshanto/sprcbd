@@ -1,7 +1,7 @@
 "use client"
 export default function Featured() {
   return (
-    <section className="featured">
+    <section className="featured" style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="row">
           <div

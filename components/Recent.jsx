@@ -1,7 +1,7 @@
 "use client";
 export default function Recent() {
   return (
-    <section className="recent-posts">
+    <section className="recent-posts" style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 shadow rounded">

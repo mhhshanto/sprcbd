@@ -2,7 +2,7 @@ import React from "react";
 
 const FourCard = () => {
   return <>
-<section className="four-card">
+<section className="four-card" style={{ overflowX: 'hidden' }}>
 <div className="four-card-text container">
     <h1 className="txt-color">আন্তরিক সেবা দানে প্রতিশ্রুতিবদ্ধ <br />  <span>শফিকুল ফিজিওথেরাপি এন্ড রিহ্যাবিলিটেশন সেন্টারে (SPRC) </span></h1>
     <p> অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।</p>

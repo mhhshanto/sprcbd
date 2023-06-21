@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <section className="pricing-table">
+    <section className="pricing-table" style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="title text-center">
           <h6 className="title-primary">Our prices</h6>

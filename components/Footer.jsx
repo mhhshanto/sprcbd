@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer style={{ overflowX: 'hidden' }}>
       <div className="footer-widgets">
         <div className="container">
           <div className="row">

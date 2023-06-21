@@ -13,7 +13,7 @@ export default function Testimonial() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <section className="testimonial-and-clients">
+    <section className="testimonial-and-clients" style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="testimonials">
           <Swiper

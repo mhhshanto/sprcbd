@@ -10,7 +10,7 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 
 export default function Trust() {
   return (
-    <section className="trust">
+    <section className="trust" style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="row">
           <div

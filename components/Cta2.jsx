@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cta2() {
   return (
-    <section className="cta cta2" data-aos="fade-up" data-aos-delay="0">
+    <section className="cta cta2" data-aos="fade-up" data-aos-delay="0"  style={{ overflowX: 'hidden' }}>
       <div className="container">
         <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
           <div className="content" data-aos="fade-right" data-aos-delay="200">
