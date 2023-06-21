@@ -17,7 +17,7 @@ export default function Nav() {
            
             <ul className="nav social d-none d-md-flex">
               <li>
-                <a className="bg-primary" href="https://www.facebook.com/fh5co" target="_blank">
+                <a className="bg-primary" href="https://www.facebook.com/Physio.bangla?mibextid=ZbWKwL" target="_blank">
                   <i className="fa fa-facebook"></i>
                 </a>
               </li>
@@ -27,7 +27,7 @@ export default function Nav() {
                 </a>
               </li>
               <li>
-                <a className="bg-info" href="#">
+                <a className="bg-info" href="">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>

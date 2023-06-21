@@ -248,7 +248,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a className="bg-primary" href="#">
+                    <a className="bg-primary" href="https://www.facebook.com/Physio.bangla?mibextid=ZbWKwL">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
