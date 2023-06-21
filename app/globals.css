@@ -69,7 +69,10 @@ h6,
   font-weight: 700 !important;
   line-height: 1.2;
 } */
-
+body{
+  min-height: 100vh;
+  width: 100vw;
+}
 header a {
   color: #ee1515;
   text-decoration: none;
