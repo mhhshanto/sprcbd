@@ -7,7 +7,7 @@ import Cta2 from "@/components/Cta2";
 const client = new Client();
 client
   .setEndpoint('https://cloud.appwrite.io/v1')
-  .setProject('649202c8d24f341ff983');
+  .setProject('6492c386612c2175dd7b');
 
 
 const page = ({params}) => {
@@ -17,7 +17,7 @@ const page = ({params}) => {
   useEffect(() => {
     const databases = new Databases(client);
 
-    const promise = databases.listDocuments('6492052992e6a1900b7f', '64920548a6794540bb44',[Query.equal("slug",[slug,])]);
+    const promise = databases.listDocuments('6492c45a350b7aa41315', '6492c463efbb42e16cef',[Query.equal("slug",[slug,])]);
 
     promise.then(function (response) {
         console.log(response);
