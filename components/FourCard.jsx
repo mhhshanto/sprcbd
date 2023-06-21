@@ -16,7 +16,7 @@ const FourCard = () => {
       data-aos-duration="800">
       <h2>ম্যানুয়াল এন্ড ম্যানিপুলেশন থেরাপি   </h2>
       <p>সপ্তাহে ৭ দিনই আমাদের ফিজিওথেরাপি সেন্টার থেকে সেবা নেওয়ার সুযোগ রয়েছে। </p>
-      <a href="/therapy" className="mt-5 btn btn-warning">Know More</a>
+      <a href="/therapy" className="mt-5 btn btn-warning">বিস্তারিত জানুন</a>
       <img src="sprc-images/four-card/icon-karma.svg" alt=""/>
       </div>
     </div>
@@ -28,7 +28,7 @@ const FourCard = () => {
        >
       <h2>সর্বাধুনিক যন্ত্রপাতির ব্যবহার </h2>
       <p>সর্বাধুনিক যন্ত্রপাতি হওয়ায় আমাদের চিকিৎসা ব্যবস্থা অনেক বেশি কার্যকর ।</p>
-      <a href="/machineries" className="mt-5 btn btn-info">Know More</a>
+      <a href="/machineries" className="mt-5 btn btn-info">বিস্তারিত জানুন</a>
       <img src="sprc-images/four-card/icon-supervisor.svg" alt=""/>
     </div>
     <div className="box box-red box-push">
@@ -39,7 +39,7 @@ const FourCard = () => {
       <h2>বিশেষজ্ঞ ফিজিওথেরাপিস্ট টিম</h2>
       <p>সুদক্ষ থেরাপিস্ট দ্বারা আমাদের ফিজিওথেরাপি সেন্টার পরিচালিত হয়।</p>
       <img src="sprc-images/four-card/icon-team-builder.svg" alt=""/>
-      <a href="/stuff"  className="mt-5 btn btn-danger">Know More</a>
+      <a href="/stuff"  className="mt-5 btn btn-danger">বিস্তারিত জানুন</a>
       </div>
     </div>
     
@@ -49,7 +49,7 @@ const FourCard = () => {
     data-aos-duration="800">
       <h2>হোম সার্ভিস ফিজিওথেরাপি </h2>
       <p>ডিজেবল পেশেন্টের অক্ষমতা বিবেচনায় রেখে আমাদের রয়েছে হোম সার্ভিস ফিজিওথেরাপিস্ট টিম । </p>
-      <a href="/contact" className="mt-5 btn btn-primary">Know More</a>
+      <a href="/contact" className="mt-5 btn btn-primary">বিস্তারিত জানুন</a>
       <img src="sprc-images/four-card/icon-calculator.svg" alt=""/>
     </div>
   </div>

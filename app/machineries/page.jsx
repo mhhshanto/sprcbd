@@ -10,8 +10,8 @@ const page = () => {
       </div>
     </div>
     <div className="container">
-      <div className="row mb-4">
-        <div className="col-md-6 text-end p-3"
+      <div className="row mb-4 shadow rounded m-2 shadow rounded m-2">
+        <div className="col-md-6 text-end"
         data-aos="fade-right"
         data-aos-delay="0"
         data-aos-duration="800">
@@ -25,7 +25,7 @@ const page = () => {
         data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/sound.jpg" alt="" /></div>
       </div>
 
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 "
         data-aos="fade-right"
         data-aos-delay="0"
@@ -40,7 +40,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5"
     data-aos="fade-right"
     data-aos-delay="0"
@@ -55,7 +55,7 @@ const page = () => {
     data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/machi.jpg" alt="" /></div>
   </div>
 
-  <div className="row mb-4">
+  <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 "
         data-aos="fade-right"
         data-aos-delay="0"
@@ -69,7 +69,7 @@ const page = () => {
           <p>details of the machine</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5" data-aos="fade-right"
           data-aos-delay="0"
           data-aos-duration="800">
@@ -82,7 +82,7 @@ const page = () => {
           data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/new-acu-tens.jpg" alt="" /></div>
   </div>
 
-  <div className="row mb-4">
+  <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 " data-aos="fade-right"
           data-aos-delay="0"
           data-aos-duration="800"><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/Untitl2.jpg" alt="" /></div>
@@ -92,7 +92,7 @@ const page = () => {
           <p>details of the machine</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5" data-aos="fade-left"
           data-aos-delay="0"
           data-aos-duration="800">
@@ -103,7 +103,7 @@ const page = () => {
     <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/machii.jpg" alt="" /></div>
   </div>
 
-  <div className="row mb-4">
+  <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 "
         data-aos="fade-right"
         data-aos-delay="0"
@@ -117,7 +117,7 @@ const page = () => {
           <p>details of the machine</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5" data-aos="fade-left"
           data-aos-delay="0"
           data-aos-duration="800">
@@ -128,7 +128,7 @@ const page = () => {
     <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/swd.jpg" alt="" /></div>
   </div>
 
-  <div className="row mb-4">
+  <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 "
         data-aos="fade-right"
         data-aos-delay="0"
@@ -142,7 +142,7 @@ const page = () => {
           <p>details of the machine</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5" data-aos="fade-left"
           data-aos-delay="0"
           data-aos-duration="800">
@@ -153,7 +153,7 @@ const page = () => {
     <div className="col-md-6 "><img className="rounded shadow p-1 img-fluid" src="sprc-images/machineries/traction.jpg" alt="" /></div>
   </div>
 
-  <div className="row mb-4">
+  <div className="row mb-4 shadow rounded m-2">
         <div className="col-md-6 "
         data-aos="fade-right"
         data-aos-delay="0"
@@ -167,7 +167,7 @@ const page = () => {
           <p>details of the machine</p>
         </div>
       </div>
-      <div className="row mb-4">
+      <div className="row mb-4 shadow rounded m-2">
     <div className="col-md-6 text-end p-5" data-aos="fade-left"
           data-aos-delay="0"
           data-aos-duration="800">

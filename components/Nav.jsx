@@ -38,7 +38,7 @@ export default function Nav() {
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
               {/* <img src="sprc-images/home/logo.png" alt="Multipurpose" /> */}
-              <h2> <img src="sprc-images/home/logo.png" alt="" /> SPRC <span>BD</span></h2>
+              <h2> <img src="../sprc-images/home/logo.png" alt="" /> SPRC <span>BD</span></h2>
             </a>
             <div className="group d-flex align-items-center">
               <button

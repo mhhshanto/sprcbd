@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
-    AOS.init({ disable: "mobile" });
+    AOS.init();
     AOS.refresh();
   }, []);
   return (
