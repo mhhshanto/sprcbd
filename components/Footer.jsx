@@ -280,7 +280,7 @@ export default function Footer() {
             <p className="mb-0" data-aos="fade-right" data-aos-offset="0">
               &copy; 2023 All Rights Reserved by&nbsp;
               <a
-                href="https://freehtml5.co/multipurpose"
+                href="/"
                 target="_blank"
                 className="fh5-link"
               >
