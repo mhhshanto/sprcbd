@@ -21,7 +21,8 @@ const page = () => {
             <div className="card-body bg-light">
        
             <div class = "container">
-                             <form id="contact-form" role="form">
+        <form action="https://formspree.io/f/mvojgnyz"
+  method="POST" id="contact-form" role="form">
 
             
 
@@ -30,30 +31,31 @@ const page = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="form-group">
-                            <label for="form_name">নাম  *</label>
-                            <input id="form_name" type="text" name="name" className="form-control" placeholder="এখানে আপনার পূর্ণ নাম লিখুন  *" required="required" data-error="Firstname is required."/>
+                            <label htmlFor="name">নাম  *</label>
+                            <input id="name" type="text" name="name" className="form-control" placeholder="এখানে আপনার পূর্ণ নাম লিখুন  *" required="required" data-error="Firstname is required."/>
                             
                         </div>
                     </div>
+
                     <div className="col-md-6">
                         <div className="form-group">
-                            <label for="form_lastname">মোবাইল নাম্বার *</label>
-                            <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="এখানে আপনার ফোন নাম্বার দিন  *" required="required" data-error="Lastname is required."/>
+                            <label htmlFor="phone">মোবাইল নাম্বার *</label>
+                            <input id="phone" type="text" name="phone" className="form-control" placeholder="এখানে আপনার ফোন নাম্বার দিন  *" required="required" data-error="Lastname is required."/>
                                                             </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="form-group">
-                            <label for="form_email">ইমেইল  *</label>
-                            <input id="form_email" type="email" name="email" className="form-control" placeholder="ইমেইল এড্রেস টি দিন  *" required="required" data-error="Valid email is required."/>
+                            <label htmlFor="email">ইমেইল  *</label>
+                            <input id="email" type="email" name="email" className="form-control" placeholder="ইমেইল এড্রেস টি দিন  *" required="required" data-error="Valid email is required."/>
                             
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="form-group">
-                            <label for="form_need">এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
-                            <input id="form_email" type="date" name="email" className="form-control" placeholder="ইমেইল এড্রেস টি দিন  *" required="required" data-error="Valid email is required."/>
+                            <label htmlFor="date">এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
+                            <input id="date" type="date" name="date" className="form-control" placeholder="ইমেইল এড্রেস টি দিন  *" required="required" data-error="Valid email is required."/>
                             
                         </div>
                     </div>
@@ -61,8 +63,8 @@ const page = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" className="form-control" placeholder="এখানে আপনার সমস্যাটি এখানে লিখুন । " rows="4" required="required" data-error="Please, leave us a message."></textarea
+                            <label htmlFor="message">Message *</label>
+                            <textarea id="message" name="message" className="form-control" placeholder="এখানে আপনার সমস্যাটি এখানে লিখুন । " rows="4" required="required" data-error="Please, leave us a message."></textarea
                                 >
                             </div>
 
@@ -79,7 +81,7 @@ const page = () => {
 
 
         </div>
-         </form>
+         </form >
         </div>
             </div>
 
