@@ -9,6 +9,7 @@ const FourCard = () => {
   </div>
   
 <div className="container-four">
+<a href="/machineries" className="text-deco">
 <div className="box box-orange box-push">
       <div 
       data-aos="fade-right"
@@ -20,7 +21,8 @@ const FourCard = () => {
       <img src="sprc-images/four-card/icon-karma.svg" alt=""/>
       </div>
     </div>
-   
+    </a>
+    <a href="/machineries" className="text-deco">
     <div className="box box-cyan" 
        data-aos="fade-down"
        data-aos-delay="0"
@@ -31,7 +33,9 @@ const FourCard = () => {
       <a href="/machineries" className="mt-5 btn btn-info">বিস্তারিত জানুন</a>
       <img src="sprc-images/four-card/icon-supervisor.svg" alt=""/>
     </div>
+    </a>
     <div className="box box-red box-push">
+    <a href="/stuff" className="text-deco">
      <div 
        data-aos="fade-left"
        data-aos-delay="0"
@@ -41,8 +45,9 @@ const FourCard = () => {
       <img src="sprc-images/four-card/icon-team-builder.svg" alt=""/>
       <a href="/stuff"  className="mt-5 btn btn-danger">বিস্তারিত জানুন</a>
       </div>
+      </a>
     </div>
-    
+    <a href="/machineries" className="text-deco"></a>
     <div className="box box-blue" 
     data-aos="fade-up"
     data-aos-delay="0"

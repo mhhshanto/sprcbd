@@ -1,4 +1,3 @@
-"use client"
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -23,7 +22,14 @@ export default function Blog() {
     promise
       .then(function (response) {
         console.log(response);
-        setBlogs(response.documents);
+        // Replace newline characters (\n) with HTML line breaks (<br>)
+        const formattedBlogs = response.documents.map((blog) => {
+          return {
+            ...blog,
+            content: blog.content.replace(/\n/g, '<br>'),
+          };
+        });
+        setBlogs(formattedBlogs);
       })
       .catch(function (error) {
         console.log(error);
@@ -31,12 +37,6 @@ export default function Blog() {
   }, []);
 
   return (
-    // <div className="four-card ">
-// <div className="four-card-text container">
-//     <h1>নিয়মিত আমাদের <span>ব্লগ</span>&nbsp;পড়ার মাধ্যমে নিজের শারীরিক সুস্থতা নিয়ে আরো বেশী সচেতন হোন।</h1>
-//     <p> ফিজিওথেরাপি বাংলা ব্লগ: স্বাস্থ্যমন্দ জীবনের প্রথম ধাপ</p>
-//   </div>
-// </div>
     <div className="container">
       <div className="row">
         {blogs.map((item) => (
@@ -44,7 +44,8 @@ export default function Blog() {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title text-success">{item.title}</h5>
-                <p className="card-text">{item.content.substr(0,30)}...</p>
+                {/* Using dangerouslySetInnerHTML to render the HTML content */}
+                <p className="card-text" dangerouslySetInnerHTML={{ __html: item.content }}></p>
                 <Link href={"/blogpost/" + item.slug} className="btn btn-primary">
                   Read more
                 </Link>
@@ -56,6 +57,7 @@ export default function Blog() {
     </div>
   );
 }
+
 
 
   {/* <div className="col-sm-6 mb-3 mt-3">
