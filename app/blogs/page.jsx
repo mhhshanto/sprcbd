@@ -1,6 +1,6 @@
 import React from "react";
-import Blog from "@/components/Blog";
-import Cta2 from "@/components/Cta2";
+import Blog from "/components/Blog";
+import Cta2 from "/components/Cta2";
 
 const page = () => {
   return <div>

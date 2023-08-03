@@ -2,7 +2,7 @@
 import React from "react";
 import { useEffect, useState } from 'react';
 import { Client, Databases, ID, Query } from 'appwrite';
-import Cta2 from "@/components/Cta2";
+import Cta2 from "/components/Cta2";
 
 const client = new Client();
 
