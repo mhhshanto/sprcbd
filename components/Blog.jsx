@@ -46,7 +46,7 @@ export default function Blog() {
                 <h5 className="card-title text-success">{item.title}</h5>
                 <p className="card-text">{item.content.substr(0,30)}...</p>
                 <Link href={"/blogpost/" + item.slug} className="btn btn-primary">
-                  Read more
+                  Read more.
                 </Link>
               </div>
             </div>
