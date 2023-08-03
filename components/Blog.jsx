@@ -22,7 +22,7 @@ export default function Blog() {
     promise
       .then(function (response) {
         console.log(response);
-        // Replace newline characters (\n) with HTML line breaks (<br>)
+        // Replace newline characters (\n) with HTML line breaks (<br>) in the content
         const formattedBlogs = response.documents.map((blog) => {
           return {
             ...blog,
@@ -44,8 +44,7 @@ export default function Blog() {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title text-success">{item.title}</h5>
-                {/* Using dangerouslySetInnerHTML to render the HTML content */}
-                <p className="card-text" dangerouslySetInnerHTML={{ __html: item.content }}></p>
+                <p className="card-text">{item.content}</p>
                 <Link href={"/blogpost/" + item.slug} className="btn btn-primary">
                   Read more
                 </Link>
@@ -57,6 +56,7 @@ export default function Blog() {
     </div>
   );
 }
+
 
 
 
