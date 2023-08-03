@@ -34,7 +34,7 @@ const page = ({params}) => {
     <div class="row">
       <div class="col-md-12 mt-4">
         <h1 className="text-center mb-4 text-primary">{blog.title}</h1>
-        <p className="custom-text">{blog.content}</p>
+        <p className="text-lg" dangerouslySetInnerHTML={{__html:blog?.content}}></p>
       </div>
     </div>
   </div>
