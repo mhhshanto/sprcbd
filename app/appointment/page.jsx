@@ -23,19 +23,62 @@ const MyComponent = () => {
 
   return (
     <div>
+      <section className="four-card">
+<div className="four-card-text container">
+    <h1 className="txt-color"><span>শফিকুল ইসলাম ফিজিওথেরাপি সেন্টারে </span> <br />আপনার এপয়েন্টমেন্ট নিশ্চিত করতে নিচের ফর্মটি সঠিক ভাবে পূরণ করুন  </h1>
+    <p> অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।</p>
+  </div>
+
+
+  <div className="container">
+     <h1 className="text-center">এপয়েন্টমেন্ট ফর্ম</h1>
+</div>
+
+
+  </section>
+
+  <div className='container'>
       {emailSent ? (
-        <p>Email sent successfully!</p>
+        <p>Appointment request sent successfully!</p>
       ) : (
         <form onSubmit={sendEmail}>
-          <input type="text" name="to_name" placeholder="Recipient Name" required />
-          <input type="email" name="to_email" placeholder="Recipient Email" required />
-          <input type="text" name="subject" placeholder="Subject" required />
-          <input type="text" name="number" placeholder="Number" required />
-
-          <textarea name="message" placeholder="Your Message" required />
-          <button type="submit">Send Email</button>
-        </form>
+        <div className="form-group">
+        <label>রোগীর নাম *</label>
+          <input type="text" className="form-control" name="to_name" placeholder="এখানে রোগীর পূর্ণ নাম লিখুন  *" required />
+        </div>
+        <div className="form-group">
+        <label >মোবাইল নাম্বার *</label>
+          <input type="text" className="form-control" name="phone" placeholder="রোগীর মোবাইল নাম্বার *" required />
+        </div>
+        <div className="form-group">
+        <label >ইমেইল এড্রেস *</label>
+          <input type="email" className="form-control" name="to_email" placeholder="ইমেইল এড্রেস দিন" required />
+        </div>
+        <div className="form-group">
+        <label>এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
+          <input type="date" className="form-control" name="date"  required />
+        </div>
+        <div className="form-group">
+        <label htmlFor="message">রোগীর সমস্যা *</label>
+          <textarea className="form-control" name="message" placeholder="রোগীর সমস্যা লিখুন " required></textarea>
+        </div>
+        <div className="col-md-12 text-center mt-3">
+        <button type="submit" className="btn_custom btn_custom-primary">এপয়েন্টমেন্ট কনফার্ম  করুন</button>
+        </div>
+      </form>
       )}
+      </div>
+
+      <div className="container text-center">
+    <h3 className="text-danger mt-3">নির্দেশনা </h3>
+  <ol className="list-group list-group-flush">
+  <li className="list-group-item">অনুগ্রহ করে আপনার নামটি সঠিকভাবে দিন। </li>
+  <li className="list-group-item">আপনার সঠিক ফোন নাম্বার দিন। </li>
+  <li className="list-group-item">সঠিক ইমেইল এড্রেস দিন। </li>
+  <li className="list-group-item">আপনার সমস্যাটি বিস্তারিত লিখুন। </li>
+  <li className="list-group-item">এপয়েন্টমেন্ট কনফার্ম করার পূর্বে সবকিছু ভালোভাবে চেক করে নিন। </li>
+</ol>
+  </div>
     </div>
   );
 };
