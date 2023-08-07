@@ -62,11 +62,11 @@ const MyComponent = () => {
           <label htmlFor="selectOption">এপয়েন্টমেন্টের সময় সিলেক্ট করুন  *</label>
           <select className="form-control" name="selectOption" id="selectOption" required>
             <option value="">Choose appointment time</option>
-            <option value="option1">4.00pm</option>
-            <option value="option2">4.30pm</option>
-            <option value="option3">5.00pm</option>
-            <option value="option4">6.00pm</option>
-            <option value="option5">7.00pm</option>
+            <option value="4.00pm">4.00pm</option>
+            <option value="4.30pm">4.30pm</option>
+            <option value="5.00pm">5.00pm</option>
+            <option value="6.00pm">6.00pm</option>
+            <option value="7.00pm">7.00pm</option>
           </select>
         </div>
         <div className="form-group">
