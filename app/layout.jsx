@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <title>SPRCBD || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG</title>
       </head>
       <body suppressHydrationWarning={true} className={inter.className}>
         <Nav />
