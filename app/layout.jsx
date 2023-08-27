@@ -30,10 +30,10 @@ export default function RootLayout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <link rel="icon" href="favicon.ico" />
-        <title>SPRCBD || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG</title>
+        <title>SPRCBD MANIPULATION THERAPY || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG</title>
         <meta property="og:title" content="SPRCBD || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG" />
         <meta property="og:description" content="Your description goes here." />
-        <meta property="og:image" content="https://dummyimage.com/700x300.png" />
+        <meta property="og:image" content="sprc-images/preview-image/preview-thumbnail.jpg" />
         <meta property="og:url" content="https://sprcbd.com" />
       </head>
       <body suppressHydrationWarning={true} className={inter.className}>
