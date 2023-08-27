@@ -32,8 +32,10 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="favicon.ico" />
         <title>SPRCBD MANIPULATION THERAPY || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG</title>
         <meta property="og:title" content="SPRCBD || BEST PHYSIOTHERAPY CENTER IN CHITTAGONG" />
-        <meta property="og:description" content="Your description goes here." />
-        <meta property="og:image" content="sprc-images/preview-image/preview-thumbnail.jpg" />
+        <meta property="og:description" content="আন্তরিক সেবা দানে প্রতিশ্রুতিবদ্ধ
+শফিকুল ফিজিওথেরাপি এন্ড রিহ্যাবিলিটেশন সেন্টারে (SPRC)
+অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।" />
+        <meta property="og:image" content="https://i.ibb.co/52g30mV/preview-thumbnail.jpg" />
         <meta property="og:url" content="https://sprcbd.com" />
       </head>
       <body suppressHydrationWarning={true} className={inter.className}>
