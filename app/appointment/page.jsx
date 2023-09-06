@@ -9,7 +9,7 @@ const MyComponent = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_cduccme', 'template_m6yergi', e.target, 'x90wnYjApXMtKWBpq')
+      .sendForm('service_cduccme', 'template_m6yergi', e.target, 'Pd44FMJUaBg23JBCt')
       .then(
         (result) => {
           console.log(result.text);
