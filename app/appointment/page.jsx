@@ -51,8 +51,8 @@ const MyComponent = () => {
           <input type="text" className="form-control" name="phone" placeholder="রোগীর মোবাইল নাম্বার *" required />
         </div>
         <div className="form-group">
-        <label >ইমেইল এড্রেস *</label>
-          <input type="email" className="form-control" name="to_email" placeholder="ইমেইল এড্রেস দিন" required />
+        <label >ইমেইল এড্রেস (আবশ্যিক নয়)</label>
+          <input type="email" className="form-control" name="to_email" placeholder="ইমেইল এড্রেস দিন"/>
         </div>
         <div className="form-group">
         <label>এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
@@ -62,10 +62,10 @@ const MyComponent = () => {
           <label htmlFor="selectOption">এপয়েন্টমেন্টের সময় সিলেক্ট করুন  *</label>
           <select className="form-control" name="selectOption" id="selectOption" required>
             <option value="">Choose appointment time</option>
-            <option value="4.00pm">4.00pm</option>
-            <option value="4.30pm">4.30pm</option>
-            <option value="5.00pm">5.00pm</option>
-            <option value="6.00pm">6.00pm</option>
+            <option value="4.00pm">5.00pm</option>
+            <option value="4.30pm">5.30pm</option>
+            <option value="5.00pm">6.00pm</option>
+            <option value="6.00pm">6.30pm</option>
             <option value="7.00pm">7.00pm</option>
           </select>
         </div>
