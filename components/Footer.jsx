@@ -286,7 +286,7 @@ export default function Footer() {
               >
                 SprcBd.Com
               </a>
-              .
+              
             </p>
             <p className="mb-0" data-aos="fade-left" data-aos-offset="0">
               <a href="#">Terms Of Use</a>

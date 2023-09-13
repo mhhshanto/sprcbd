@@ -26,18 +26,19 @@ const MyComponent = () => {
       <section className="four-card">
 <div className="four-card-text container">
     <h1 className="txt-color"><span>শফিকুল ইসলাম ফিজিওথেরাপি সেন্টারে </span> <br />আপনার এপয়েন্টমেন্ট নিশ্চিত করতে নিচের ফর্মটি সঠিক ভাবে পূরণ করুন  </h1>
-    <p> অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।</p>
+    <p className='mt-4'> অভিজ্ঞ এবং ডিগ্রিধারী বিশেষজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে রোগীদের সঠিক সেবা নিশ্চিত করতেই আমাদের এই অনলাইন প্লাটফর্ম ।</p>
   </div>
 
 
-  <div className="container">
-     <h1 className="text-center">এপয়েন্টমেন্ট ফর্ম</h1>
-</div>
+  
 
 
   </section>
 
-  <div className='container col-md-6 border rounded p-4'>
+  <div className='container col-md-6 border rounded p-4 mt-3'>
+  <div className="container">
+     <h2 className="text-center mb-4"><u>এপয়েন্টমেন্ট ফর্ম</u></h2>
+</div>
       {emailSent ? (
         <p>Appointment request sent successfully!</p>
       ) : (
