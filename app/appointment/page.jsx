@@ -37,7 +37,7 @@ const MyComponent = () => {
 
   <div className='container col-md-6 border rounded p-4 mt-3 bg-secondary text-white'>
   <div className="text-center d-flex justify-content-center">
-     <h2 className="col-5 rounded mb-4 text-light bg-dark">এপয়েন্টমেন্ট ফর্ম</h2>
+     <h2 className="col-5 rounded mb-4 text-light shadow-lg">এপয়েন্টমেন্ট ফর্ম</h2>
 </div>
       {emailSent ? (
         <p>Appointment request sent successfully!</p>
