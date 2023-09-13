@@ -37,7 +37,7 @@ const MyComponent = () => {
 
   </section>
 
-  <div className='container'>
+  <div className='container col-md-6 border rounded p-4'>
       {emailSent ? (
         <p>Appointment request sent successfully!</p>
       ) : (
