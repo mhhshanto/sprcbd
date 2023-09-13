@@ -47,19 +47,19 @@ const MyComponent = () => {
           <input type="text" className="form-control" name="to_name" placeholder="এখানে রোগীর পূর্ণ নাম লিখুন  *" required />
         </div>
         <div className="form-group">
-        <label >মোবাইল নাম্বার *</label>
+        <label className='mt-2'>মোবাইল নাম্বার *</label>
           <input type="text" className="form-control" name="phone" placeholder="রোগীর মোবাইল নাম্বার *" required />
         </div>
         <div className="form-group">
-        <label >ইমেইল এড্রেস (আবশ্যিক নয়)</label>
+        <label className='mt-2'>ইমেইল এড্রেস (আবশ্যিক নয়)</label>
           <input type="email" className="form-control" name="to_email" placeholder="ইমেইল এড্রেস দিন"/>
         </div>
         <div className="form-group">
-        <label>এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
+        <label className='mt-2'>এপয়েন্টমেন্টের তারিখ সিলেক্ট করুন  *</label>
           <input type="date" className="form-control"  name="date"  required />
         </div>
         <div className="form-group">
-          <label htmlFor="selectOption">এপয়েন্টমেন্টের সময় সিলেক্ট করুন  *</label>
+          <label htmlFor="selectOption" className='mt-2'>এপয়েন্টমেন্টের সময় সিলেক্ট করুন  *</label>
           <select className="form-control" name="selectOption" id="selectOption" required>
             <option value="">Choose appointment time</option>
             <option value="4.00pm">5.00pm</option>
@@ -70,7 +70,7 @@ const MyComponent = () => {
           </select>
         </div>
         <div className="form-group">
-        <label htmlFor="message">রোগীর সমস্যা *</label>
+        <label htmlFor="message" className='mt-2'>রোগীর সমস্যা *</label>
           <textarea className="form-control" name="message" placeholder="রোগীর সমস্যা লিখুন " required></textarea>
         </div>
         <div className="col-md-12 text-center mt-3">
