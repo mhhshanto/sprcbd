@@ -26,7 +26,7 @@ const Contact = () => {
       </p></div>
     <div class="w-100 m-2"></div>
     <div class="m-2 col border rounded "><h4 className="mt-4">ইমেইল</h4>
-      <p>shafiqulphysiobd@gmail.com</p></div>
+      <p>shafiqulphysiobd @gmail.com</p></div>
     <div class="col m-2 border rounded"><h4 className="mt-4">রোগী দেখার সময়</h4>
       <p>প্রতিদিন<br />
         সকাল ১০ টা থেকে বিকেল ৫ টা।
