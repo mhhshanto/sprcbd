@@ -22,7 +22,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">বার্ধক্যজনিত ব্যথা</h5>
       <p className="card-text text-center color-switch">বয়সজনিত কারণে মাংসপেশি বা জয়েন্টে ব্যাথা ও দুর্বলতা । </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">শোল্ডার পেইন</h5>
       <p className="card-text text-center color-switch">ফ্রোজেন শোল্ডার , ইঞ্জুরির  পরবর্তীতে জয়েন্ট শক্ত হয়ে যাওয়া ও নিউরোলজিক্যাল কারণে জয়েন্টের কার্যক্ষমতা হারিয়ে ফেলা ।  </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">স্ট্রোক,প্যারালাইসিস</h5>
       <p className="card-text text-center color-switch">স্ট্রোক জনিত প্যারালাইসিসের জন্য আমাদের রয়েছে আন্তর্জাতিক মানের <a target="_blank" href="https://www.bbta.org.uk/">Bobath Therapy</a></p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ const service = () => {
       <p className="card-text text-center color-switch">সারভাইক্যাল স্পন্ডালাইটিস , ডিস্ক প্রলাপ্স ,ঘাড় থেকে হাত পর্যন্ত ঝিনঝিন ব্যাথা ,ঘাড় হতে মাথা ব্যাথার জন্য আমাদের রয়েছে অপারেশন বিহীন চিকিৎসা --  ম্যানুয়াল থেরাপি <a target="_blank" href="https://mckenzieinstitute.org/
 ">McKenzie Concept</a> </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">হাঁটুর জয়েন্টে ব্যথা</h5>
       <p className="card-text text-center color-switch">হাঁটুর ক্ষয়জনিত সমস্যার জন্য হাঁটু ভাজ করতে পারছেন না ? জয়েন্ট রিপ্লেসমেন্টের মত জটিল অপারেশন থেকে বাঁচতে আমাদের রয়েছে বিশ্ব বিখ্যাত ম্যানুয়াল থেরাপি   <br /><a target="_blank" href="https://bmulligan.com/">Mulligan Concept</a></p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">খেলাধুলার আঘাত</h5>
       <p className="card-text text-center color-switch">স্পোর্টস ইনজুরি, ফিজিওথেরাপি , ফিটনেস ,রিহ্যাবিলিটেশনের জন্য আমাদের রয়েছে CryoTherapy এবং সফট টিস্যু মবিলাইজেশন  <a target="_blank" href="https://belgium.worldplaces.me/review/84930016-european-teaching-group-of-orthopaedic-medicine-cyriax.html">ETOMG-Belgium</a> </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -96,7 +96,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">হাঁটুর  লিগামেন্ট ইনজুরি </h5>
       <p className="card-text text-center color-switch">ACL Injury, PCL Injury, MCL Injury, Meniscus Injury, LCL Injury অথবা রিকন্সট্রাকশন সার্জারি ও Total Knee Replacement Surgery এর পরবর্তী ফিজিওথেরাপি রিহ্যাবিলিটেশন করা হয় ।  </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -109,7 +109,7 @@ const service = () => {
       <p className="card-text text-center color-switch">মেরুদণ্ডের ডিস্কের সমস্যা , কোমর থেকে পায়ের দিকে ঝিন-ঝিন করে ব্যথা , লাম্বার স্পন্ডালাইসিস এর ফিজিওথেরাপি এবং PLID এর চিকিৎসায় আমাদের রয়েছে <a target="_blank" href="https://mckenzieinstitute.org/
 ">McKenzie Concept</a> </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@ const service = () => {
       <p className="card-text text-center color-switch">Bell's Palsy, Facial Palsy , এর চিকিৎসায় আমাদের রয়েছে Electro Diagnostic Test Facility With Muscle Stimulator Machine
 </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -134,7 +134,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">পেডিয়েটিক ফিজিওথেরাপি ​</h5>
       <p className="card-text text-center color-switch">বিশ্ব স্বাস্থ্য সংস্থা WHO-এর নির্দেশনা অনুযায়ী ফিজিওথেরাপি বা ফিজিক্যাল থেরাপি হলো এমন একটি চিকিৎসা ব্যবস্থা যা সম্পূর্ণ স্বাধীন এবং একজন ফিজিওথেরাপি চিকিৎসক স্বতন্ত্রভাবে রোগীর রোগ নির্ণয় করে চিকিৎসাব্যবস্থা প্রদান করতে পারেন।</p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -146,7 +146,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">কার্ডিও-পালমোনারি ও চেস্ট থেরাপি  ​</h5>
       <p className="card-text text-center color-switch">বিশ্ব স্বাস্থ্য সংস্থা WHO-এর নির্দেশনা অনুযায়ী ফিজিওথেরাপি বা ফিজিক্যাল থেরাপি হলো এমন একটি চিকিৎসা ব্যবস্থা যা সম্পূর্ণ স্বাধীন এবং একজন ফিজিওথেরাপি চিকিৎসক স্বতন্ত্রভাবে রোগীর রোগ নির্ণয় করে চিকিৎসাব্যবস্থা প্রদান করতে পারেন।</p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@ const service = () => {
       <h5 className="card-title text-primary text-center mb-3">অর্থোপেডিক্স ফিজিওথেরাপি ​</h5>
       <p className="card-text text-center color-switch">বিভিন্ন প্রকার ফ্রাকচার এর অপারেশন ও প্লাস্টারের পরবর্তী শরীরের কার্যক্ষমতা ফিরিয়ে আনার জন্য ফিজিওথেরাপি চিকিৎসা প্রদান করা হয় । </p>
       <div className="text-center">
-        <a href="#" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
+        <a href="/appointment" className="btn btn-primary btn-sm">এপয়েন্টমেন্ট নিন </a>
       </div>
     </div>
   </div>
