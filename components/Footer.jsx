@@ -13,10 +13,7 @@ export default function Footer() {
                 data-aos-delay="0"
               >
                 <h6 className="widget-tiltle">&nbsp;</h6>
-                <p>
-                  By subscribing to our mailing list you will always be update
-                  with the latest news from us.
-                </p>
+                
                 <div className="media">
                   <i className="fa fa-map-marker"></i>
                   <div className="media-body ms-3">
@@ -61,7 +58,9 @@ export default function Footer() {
                   <i className="fa fa-twitter"></i>
                   <div className="media-body ms-3">
                     <h6>
+                    <a href="/blogpost/physiotherapy">
                     ফিজিওথেরাপির উপকার জানুন: আপনার পুনরুদ্ধার পথে সহায়তা করুন।
+                    </a>
                     </h6>
                     <span>15 May, 2023</span>
                   </div>
@@ -70,7 +69,7 @@ export default function Footer() {
                   <i className="fa fa-twitter"></i>
                   <div className="media-body ms-3">
                     <h6>
-                    ম্যানুয়াল থেরাপি বোঝার গুরুত্ব: হাতের কাজের পদ্ধতি দিয়ে স্বাস্থ্যকর হোন।
+                    <a href="/blogpost/Bells_Palsy">বেলস পালসিতে ( Bell’s palsy ) বা মুখ একদিকে বেকে যাওয়া রোগের চিকিৎসা</a>
                     </h6>
                     <span>15 May, 2023</span>
                   </div>
@@ -79,7 +78,7 @@ export default function Footer() {
                   <i className="fa fa-twitter"></i>
                   <div className="media-body ms-3">
                     <h6>
-                    ক্রীড়াবিদ্যার আঘাত প্রতিরোধ: ফিজিওথেরাপি আপনাকে খেলাযোগ্য রেখে রাখতে পারে।
+                   <a href="/blogpost/CARPALTUNNELSYNDROME_SHAFIQULPHYSIOTHERAPY">CARPAL TUNNEL SYNDROME</a>
                     </h6>
                     <span>15 May, 2023</span>
                   </div>
@@ -88,7 +87,7 @@ export default function Footer() {
                   <i className="fa fa-twitter"></i>
                   <div className="media-body ms-3">
                     <h6>
-                    ক্রোনিক ব্যথা পরিচালনা: দীর্ঘমেয়াদী ব্যথার জন্য ফিজিওথেরাপির শক্তি জানুন।
+                    <a href="/blogpost/back-pain">কোমরে ব্যথা,ঘাড়ে ব্যথা,হাটু ব্যাথার চিকিৎসা করুন ঘরে বসে।</a>
                     </h6>
                     <span>15 May, 2023</span>
                   </div>
