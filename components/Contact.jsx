@@ -16,18 +16,18 @@ const Contact = () => {
     <div className="col-md-6">
       <h3 className="txt-color mb-5">আমাদের সাথে যোগাযোগের ঠিকানা</h3>
       <div class="row">
-    <div class="col m-2 border rounded"><h4 className="mt-4">চেম্বার</h4>
+    <div class="col m-2 border rounded bg-secondary text-light bg-secondary text-light"><h4 className="mt-4">চেম্বার</h4>
       <p>১৭০৭,এ গোলপাহাড় মোড়,<br />
         ও.আর নিজাম রোড, চট্টগ্রাম।
       </p></div>
-    <div class="col m-2 border rounded"><h4 className="mt-4">মোবাইল নাম্বার</h4>
+    <div class="col m-2 border rounded bg-secondary text-light"><h4 className="mt-4">মোবাইল নাম্বার</h4>
       <p>০১৮১৯৩১৮৭২৬<br />
         ০১৯৩৩৩৩৮৯০১-১১
       </p></div>
     <div class="w-100 m-2"></div>
-    <div class="m-2 col border rounded "><h4 className="mt-4">ইমেইল</h4>
+    <div class="col m-2 border rounded bg-secondary text-light "><h4 className="mt-4">ইমেইল</h4>
       <p>shafiqulphysiobd @gmail.com</p></div>
-    <div class="col m-2 border rounded"><h4 className="mt-4">রোগী দেখার সময়</h4>
+    <div class="col m-2 border rounded bg-secondary text-light"><h4 className="mt-4">রোগী দেখার সময়</h4>
       <p>প্রতিদিন<br />
         সকাল ১০ টা থেকে বিকেল ৫ টা।
       </p></div>
