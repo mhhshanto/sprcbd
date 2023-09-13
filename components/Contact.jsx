@@ -25,7 +25,7 @@ const Contact = () => {
         ০১৯৩৩৩৩৮৯০১-১১
       </p></div>
     <div class="w-100 m-2"></div>
-    <div class="m-2 col border rounded"><h4 className="mt-4">ইমেইল</h4>
+    <div class="m-2 col border rounded "><h4 className="mt-4">ইমেইল</h4>
       <p>shafiqulphysiobd@gmail.com</p></div>
     <div class="col m-2 border rounded"><h4 className="mt-4">রোগী দেখার সময়</h4>
       <p>প্রতিদিন<br />
@@ -41,7 +41,7 @@ const Contact = () => {
     </div>
     <div className="col-md-6">
     <h3 className="txt-color mb-5">ম্যাপে আমাদের লোকেশন </h3>
-      <iframe className="rounded shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.8582556929864!2d91.8232986766227!3d22.358980340763313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd89b4bdc4581%3A0x547c42a62e27a6d2!2sShafiqul%20Physiotherapy%20%26%20Rehabilitation%20Center%20(SPRC)!5e0!3m2!1sen!2sbd!4v1686846741499!5m2!1sen!2sbd" width="600" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe className="rounded shadow col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.8582556929864!2d91.8232986766227!3d22.358980340763313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd89b4bdc4581%3A0x547c42a62e27a6d2!2sShafiqul%20Physiotherapy%20%26%20Rehabilitation%20Center%20(SPRC)!5e0!3m2!1sen!2sbd!4v1686846741499!5m2!1sen!2sbd" width="600" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>
