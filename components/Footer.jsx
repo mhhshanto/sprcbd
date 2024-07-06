@@ -288,7 +288,7 @@ export default function Footer() {
               
             </p>
             <p className="mb-0" data-aos="fade-left" data-aos-offset="0">
-              <a href="#">Terms Of Use</a>
+              <a href="https://physiotherapist.vercel.app/auth">Admin Login</a>
               <a href="#">Privacy & Security Statement</a>
             </p>
           </div>

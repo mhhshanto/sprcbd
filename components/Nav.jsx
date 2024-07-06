@@ -86,7 +86,7 @@ export default function Nav() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/blogs">
+                  <a className="nav-link" href="https://physiotherapist.vercel.app/blog">
                     Blogs
                   </a>
                 </li>
