@@ -18,22 +18,19 @@ import Portfolio from "/components/Portfolio";
 export default function Home() {
   return (
     <>
+      <Nav />
       <Hero />
-
       <Cta1 />
       <Portfolio />
       <FourCard />
       <Services />
       <Featured />
       <Recent />
-
       <Trust />
-
       <Pricing />
-      
       <Testimonial />
       <Cta2 />
-
+      <Footer />
     </>
   );
 }

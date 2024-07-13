@@ -1,5 +1,20 @@
 "use client";
+
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
 export default function Nav() {
+
+  const [adminInfo, setAdminInfo] = useState(null);
+
+  useEffect(() => {
+    const adminInfo = localStorage.getItem('adminInfo');
+    const parseInfo = JSON.parse(adminInfo)
+    setAdminInfo(parseInfo);
+    return () => setAdminInfo(adminInfo);
+  }, [])
+
+
   return (
     <header className="w-100">
       <div className="container">
@@ -14,7 +29,7 @@ export default function Nav() {
             </a>
           </div>
           <nav className="d-flex aic">
-           
+
             <ul className="nav social d-none d-md-flex">
               <li>
                 <a className="bg-primary" href="https://www.facebook.com/Physio.bangla?mibextid=ZbWKwL" target="_blank">
@@ -59,7 +74,7 @@ export default function Nav() {
                 <i className="fa fa-shopping-cart"></i>
               </a> */}
             </div>
-          
+
             <div
               className="collapse navbar-collapse justify-content-end"
               id="navbarTogglerDemo02"
@@ -86,7 +101,7 @@ export default function Nav() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="https://physiotherapist.vercel.app/blog">
+                  <a className="nav-link" href="/blogs">
                     Blogs
                   </a>
                 </li>
@@ -100,8 +115,28 @@ export default function Nav() {
                     Get Appointment
                   </a>
                 </li>
+                {
+                  adminInfo === null ?
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/auth">
+                        Login
+                      </Link>
+                    </li> :
+                    <li className="nav-item">
+                      <Link className="nav-link" href="/dashboard">
+                        Dashboard
+                      </Link>
+                    </li>
+                }
+
+                <li className="nav-item">
+                  <Link className="nav-link" href="/our-happy-client">
+                    our happy clients
+                  </Link>
+                </li>
+
               </ul>
-            
+
             </div>
           </div>
         </nav>

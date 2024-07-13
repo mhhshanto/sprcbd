@@ -6,9 +6,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
+// Require Editor CSS files.
+import 'froala-editor/css/froala_style.min.css';
+import 'froala-editor/css/froala_editor.pkgd.min.css';
 
-import Nav from "/components/Nav";
-import Footer from "/components/Footer";
 // ..
 
 export default function RootLayout({ children }) {
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
@@ -39,11 +40,13 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://sprcbd.com" />
       </head>
       <body suppressHydrationWarning={true} className={inter.className}>
-        <Nav />
         
-        {children}
+       
+          {children}
+       
+
+
         
-        <Footer />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" />
       </body>
     </html>
