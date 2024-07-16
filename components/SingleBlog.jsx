@@ -15,7 +15,7 @@ function SingleBlog({ blog }) {
                             <img  className="img-fluid" src={blog?.img_url} alt="Responsive Image" />
                         </div>
 
-                        <p className="text-lg" dangerouslySetInnerHTML={{ __html: blog?.content }}></p>
+                        <p className="text-lg mt-5" dangerouslySetInnerHTML={{ __html: blog?.content }}></p>
                     </div>
                 </div>
             </div>
