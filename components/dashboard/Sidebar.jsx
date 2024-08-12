@@ -58,7 +58,7 @@ function Sidebar() {
                     <div className="mx-4 w-100 d-flex flex-wrap align-items-center gap-3">
                         {routes.map((item, index) => (
                             <Link  key={index} href={item.link}>
-                                <Button className={`${route === item.link ? 'bg-primary' : 'bg-info'}`}>{item.name}</Button>
+                                <Button className={`${route === item.link ? 'bg-info' : 'bg-primary'}`}>{item.name}</Button>
                             </Link>
                         ))}
                         <Button onClick={handleLogOut} className="object-fit-contain">Log Out</Button>

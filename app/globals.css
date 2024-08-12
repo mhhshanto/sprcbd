@@ -2,6 +2,14 @@
   text-decoration: none;
 }
 
+.fr-second-toolbar{
+  display: none;
+}
+
+.hidden_froala p:last-of-type{
+  display: none;
+}
+
 /* Text Center Mobile- */
 @media (max-width: 767px) {
   .text-center-mobile {
@@ -309,9 +317,10 @@ form button.btn-primary:hover {
 .hero {
   background: url("/sprc-images/home/hero-group-pic.jpg") no-repeat center;
   background-size: cover;
+  object-fit: cover;
   overflow: hidden;
   position: relative;
-  min-height: 700px;
+  min-height: 900px;
   min-width: 100%;
   z-index: 1;
 }
