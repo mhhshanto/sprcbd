@@ -1,13 +1,13 @@
-import useGetSingleBlog from "../../../hooks/useGetSingleBlog";
 import dynamic from "next/dynamic";
 import useGetAllBlogs from "../../../hooks/useGetAllBlogs";
 const SingleBlog = dynamic(() => import("../../../components/SingleBlog"), {
   ssr: false,
 });
 import useGetCategory from '../../../hooks/useGetCategory'
+import useGetSingleBlog from "../../../hooks/useGetSingleBlog";
 
 async function BlogDetails({ params }) {
-  const queryTitle = params.queryTitle;
+  const queryTitle = params?.queryTitle;
   const { data: blog } = await useGetSingleBlog(queryTitle);
   const categories = await useGetCategory()
 

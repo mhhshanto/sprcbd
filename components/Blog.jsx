@@ -64,8 +64,8 @@ export default async function Blog({blogs, blogsCount, selectedCategory, selecte
            return (
            <Link href={`/blogs/${item?.queryTitle}`} className="main_card d-block mb-3 mt-3" key={item?._id}>
             <div className="blog-card w-100 h-100">
-              <img style={{position:'absolute', backgroundColor: '#493b90e0', width:'100%', height: '100%',}} className='blog-img' src={item?.img_url} alt="" />
-              <div style={{position:'absolute', backgroundColor: '#493b90e0', width:'100%', height: '100%'}}></div>
+              <img style={{position:'absolute', backgroundColor: '#493b90b5', width:'100%', height: '100%',}} className='blog-img' src={item?.img_url} alt="" />
+              <div style={{position:'absolute', backgroundColor: '#493b90b5', width:'100%', height: '100%'}}></div>
               <div className="blog-text">
                 <div className='d-flex gap-3'>
                   <p style={{color:'#fff', backgroundColor:'purple',fontSize:'12px', fontWeight:'600', padding:'1px 5px', textTransform:'uppercase' }}>{item?.category}</p>

@@ -1,16 +1,44 @@
 "use client"
 import cheerio from 'cheerio';
 import Link from 'next/link';
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Cta2 from "/components/Cta2";
 import './blog.css'
+import useAxiosPublic from '../hooks/useAxiosPublic';
 
 function SingleBlog({ blog, blogs, categories }) {
+    const axiosPublic = useAxiosPublic()
+    const count = blog?.likeCount ? blog.likeCount : 0;
+    const [likeCount, setLikeCount] = useState(count);
 
     const convertDate = (date) => {
         const options = { day: 'numeric', month: 'long', year: 'numeric' };
         return new Date(date).toLocaleDateString('en-US', options);
-       }
+    }
+
+    useEffect(() => {
+        axiosPublic.post(`/viewCounter/${blog?.queryTitle}`)
+            .then(res => {
+                //  console.log(res.data)
+            })
+    }, [blog?.queryTitle]);
+
+    const handleLike = (id) => {
+        // Optimistically update the like count
+        setLikeCount(prevCount => prevCount + 1);
+
+        axiosPublic.get(`/likeCount/${id}`)
+            .then(res => {
+                if (res.data) {
+                    setLikeCount(res.data); // Update with actual data from server
+                }
+            })
+            .catch(error => {
+                console.error('Error updating like count:', error);
+                // Revert the like count if the API request fails
+                setLikeCount(prevCount => prevCount - 1);
+            });
+    }
 
 
     return (
@@ -24,8 +52,8 @@ function SingleBlog({ blog, blogs, categories }) {
                             {
                                 categories.map((item, index) => {
                                     return (
-                                        <Link className='link-underline link-underline-opacity-0 link-underline-opacity-75-hover' style={{color:'black'}}  key={index} href={`/blogs?category=${item?.category}&page=0`}>
-                                            <p  style={{ padding: '2px 10px', borderBottom: '1px solid #d4d4d482', textTransform: 'uppercase', display: 'flex', justifyContent: 'space-between' }}>{item?.category} <span>({item?.count})</span></p>
+                                        <Link className='link-underline link-underline-opacity-0 link-underline-opacity-75-hover' style={{ color: 'black' }} key={index} href={`/blogs?category=${item?.category}&page=0`}>
+                                            <p style={{ padding: '2px 10px', borderBottom: '1px solid #d4d4d482', textTransform: 'uppercase', display: 'flex', justifyContent: 'space-between' }}>{item?.category} <span>({item?.count})</span></p>
                                         </Link>
                                     )
                                 })
@@ -59,6 +87,18 @@ function SingleBlog({ blog, blogs, categories }) {
                         </div>
 
                         <div className="text-lg hidden_froala mt-4" dangerouslySetInnerHTML={{ __html: blog?.content2 }}></div>
+
+                        <div className="d-flex align-items-center gap-4">
+                            <p className="mb-0">
+                                <strong>Views:</strong> {blog?.viewCount}
+                            </p>
+                            <button
+                                className="btn btn-primary"
+                                onClick={() => handleLike(blog?._id)}
+                            >
+                                Like {likeCount}
+                            </button>
+                        </div>
                     </div>
 
 
@@ -72,8 +112,8 @@ function SingleBlog({ blog, blogs, categories }) {
                                 return (
                                     <Link href={`/blogs/${item?.queryTitle}`} className="main_card_single d-block mb-3 mt-3" key={item?._id}>
                                         <div className="blog-card w-100 h-100">
-                                            <img style={{ position: 'absolute', backgroundColor: '#493b90e0', width: '100%', height: '100%', }} className='blog-img' src={item?.img_url} alt="" />
-                                            <div style={{ position: 'absolute', backgroundColor: '#493b90e0', width: '100%', height: '100%' }}></div>
+                                            <img style={{ position: 'absolute', backgroundColor: '#493b90b5', width: '100%', height: '100%', }} className='blog-img' src={item?.img_url} alt="" />
+                                            <div style={{ position: 'absolute', backgroundColor: '#493b90b5', width: '100%', height: '100%' }}></div>
                                             <div className="blog-text">
                                                 <div className='d-flex gap-3'>
                                                     <p style={{ color: '#fff', backgroundColor: 'purple', fontSize: '12px', fontWeight: '600', padding: '1px 5px', textTransform: 'uppercase' }}>{item?.category}</p>
