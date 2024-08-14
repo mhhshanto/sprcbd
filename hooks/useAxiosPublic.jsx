@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosPublic = axios.create({
-    baseURL: 'https://sprcbd-blue.vercel.app'
+    baseURL: 'https://sprcbd-backend.vercel.app'
 })
 const useAxiosPublic = () => {
     return axiosPublic

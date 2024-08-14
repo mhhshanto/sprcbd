@@ -6,7 +6,7 @@ const page = async ({ searchParams }) => {
   const selectedCategory = searchParams?.category || 'all';
    const selectedPage = searchParams?.page || 0;
 
-  const result = await fetch(`https://sprcbd-blue.vercel.app/blogs-data?category=${selectedCategory}&page=${selectedPage}`, {
+  const result = await fetch(`https://sprcbd-backend.vercel.app/blogs-data?category=${selectedCategory}&page=${selectedPage}`, {
     next: {
       revalidate: 10,
     }

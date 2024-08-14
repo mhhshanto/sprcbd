@@ -1,7 +1,7 @@
 
 
 async function useGetCategory() {
-    const result = await fetch('https://sprcbd-blue.vercel.app/all-category')
+    const result = await fetch('https://sprcbd-backend.vercel.app/all-category')
     return result.json();
 }
 

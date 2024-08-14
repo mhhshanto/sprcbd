@@ -1,7 +1,7 @@
 
 
  async function useGetAllBlogs(limit) {
-    const result = await fetch(`https://sprcbd-blue.vercel.app/all-blogs?limit=${limit}`, {
+    const result = await fetch(`https://sprcbd-backend.vercel.app/all-blogs?limit=${limit}`, {
          next:{
           revalidate: 10 ,
          }
