@@ -12,7 +12,7 @@ const FourCard = () => {
       </div>
 
       <div className="container-four">
-        <Link href="/therapy" className="text-deco">
+        <Link target="_blank" href="/therapy" className="text-deco">
           <div className="box imgOverlay box-orange box-push">
             <div className="imgOverlayDiv"></div>
             <div
@@ -22,12 +22,12 @@ const FourCard = () => {
               data-aos-duration="800">
               <h2>ম্যানুয়াল এন্ড ম্যানিপুলেশন থেরাপি   </h2>
               <p>সপ্তাহে ৭ দিনই আমাদের ফিজিওথেরাপি সেন্টার থেকে সেবা নেওয়ার সুযোগ রয়েছে। </p>
-              <Link href="/therapy" className="mt-5 btn btn-warning">বিস্তারিত জানুন</Link>
+              <Link target="_blank" href="/therapy" className="mt-5 btn btn-warning">বিস্তারিত জানুন</Link>
               <img src="sprc-images/four-card/icon-karma.svg" alt="" />
             </div>
           </div>
         </Link>
-        <Link href="/machineries" className="text-deco">
+        <Link target="_blank" href="/machineries" className="text-deco">
           <div className="box imgOverlay box-cyan"
             data-aos="fade-down"
             data-aos-delay="0"
@@ -55,7 +55,7 @@ const FourCard = () => {
           </a>
         </div>
         <a href="/machineries" className="text-deco"></a>
-        <Link href={'/contact'}>
+        <Link target="_blank" href={'/contact'}>
           <div className="box imgOverlay box-blue">
             <div className="imgOverlayDiv"></div>
             <div
@@ -65,7 +65,7 @@ const FourCard = () => {
 
               <h2>হোম সার্ভিস ফিজিওথেরাপি </h2>
               <p>ডিজেবল পেশেন্টের অক্ষমতা বিবেচনায় রেখে আমাদের রয়েছে হোম সার্ভিস ফিজিওথেরাপিস্ট টিম । </p>
-              <Link href="/contact" className="mt-5 btn btn-primary">বিস্তারিত জানুন</Link>
+              <Link target="_blank" href="/contact" className="mt-5 btn btn-primary">বিস্তারিত জানুন</Link>
               <img src="sprc-images/four-card/icon-calculator.svg" alt="" />
             </div>
           </div>
