@@ -294,7 +294,7 @@ export default function Footer() {
                 href="/"
                 target="_blank"
                 className="fh5-link"
-              >
+              > -
                 SprcBd.Com
               </a>
 
